@@ -4,14 +4,13 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 100%; // original 40%
         max-height: 90%;
     }
 
     h1 {
         font-size: 53px;
         margin: 0;
-        font-family: "Montserrat";
         font-weight: 700;
 
         &::before {
@@ -22,7 +21,6 @@
             position: absolute;
             margin-top: -40px;
             left: 15px;
-            opacity: 0.6;
         }
 
         &::after {
@@ -34,7 +32,6 @@
             margin-top: 18px;
             margin-left: 20px;
             animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
         }
 
         img {
@@ -60,7 +57,7 @@
     .flat-button {
         color: #ffd700;
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 500;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;

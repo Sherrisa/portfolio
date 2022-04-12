@@ -1,0 +1,96 @@
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left:0;
+            }
+        }
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        border: 0;
+        background: #8d8d8d;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Montserrat;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        border: 0;
+        background: #8d8d8d;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Montserrat;
+        color: #fff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+
+        // https://www.w3schools.com/howto/howto_css_placeholder.asp
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    .submit-container {
+        position: relative;
+        float: right;
+        padding: 20px;
+        padding-top: 10px;
+        margin-top: 25px;
+        background: #8d8d8d;
+
+        &:hover {
+            background: black;
+        }
+    }
+
+    .submit-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 170%);
+        color: white;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
