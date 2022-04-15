@@ -4,25 +4,11 @@ import { Link } from 'react-router-dom'
 import LogoTitle from '../../assets/images/nameLogo-S.png'
 import AnimatedLetters from '../AnimatedLetters'
 
-const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['h', 'e', 'r', 'r', 'i', 's', 'a', ',']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+  const Home = () => {
+    const [letterClass, setLetterClass] = useState('text-animate')
+    const nameArray = ['h', 'e', 'r', 'r', 'i', 's', 'a', ',']
+    const webArray = ['w', 'e', 'b']
+    const developerArray = ['d', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
   useEffect(() => {
     setTimeout(() => {
@@ -50,8 +36,14 @@ const Home = () => {
           <br />
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={jobArray}
+            strArray={webArray}
             idx={22}
+          />
+          <br />
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={developerArray}
+            idx={25}
           />
         </h1>
         <h2>Developer / Designer / Educator</h2>
