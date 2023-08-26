@@ -11,6 +11,7 @@ $primary-color: #ffd700;
     }
 
     h1 {
+        font-family: 'Montserrat';
         font-size: 36px; // original 53px
         margin: 0;
         font-weight: 700;
@@ -41,6 +42,7 @@ $primary-color: #ffd700;
         img {
             width: 28px; // original 40px
             margin-left: 20px;
+            margin-top: -8px;
             opacity: 0;
             height: auto;
             animation: rotateIn 1s linear both;

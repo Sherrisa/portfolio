@@ -23,3 +23,13 @@
         animation-delay: #{$i / 10}s;
     }
 }
+
+// Explanation
+// https://animate.style/
+// In the documentation, under Using @keyframes, a way to use Animate.css
+// without having to refactor your HTML is given.
+// Use the className set on the element to control the animation in the css file.
+
+// Explanation of @for loop and interpolation #{ }
+// https://sass-lang.com/documentation/at-rules/control/for
+// https://www.youtube.com/watch?v=EZKl7snoF0U

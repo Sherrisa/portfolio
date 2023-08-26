@@ -19,7 +19,7 @@ $primary-color: #ffd700;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
-} 
+}
 
 .about-page,
 .contact-page {
@@ -34,6 +34,7 @@ $primary-color: #ffd700;
     max-height: 90%;
 
     h1 {
+      font-family: 'Montserrat';
       font-size: 36px; // original 53px;
       font-weight: 700;
       margin-top: 0;
@@ -60,10 +61,14 @@ $primary-color: #ffd700;
         font-size: 18px;
         line-height: 18px;
         position: absolute;
-       
+
         bottom: -20px;
         opacity: 0.6;
       }
+    }
+
+    h2 {
+      font-family: 'Montserrat';
     }
 
     p {
